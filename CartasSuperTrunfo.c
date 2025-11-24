@@ -4,8 +4,8 @@
 // Tema 1 - Cadastro das cartas
 // Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
 
-int main() {
-  int main(){
+int main(){
+  // Área para definição das variáveis para armazenar as propriedades das cidades
     char estado;
     char codigoCarta[4];
     char cidade[30];
@@ -21,6 +21,7 @@ int main() {
     scanf("Digite a area: %f", &area);
     scanf("Digite o PIB: %f", &pib);
     scanf("Digite a quantidade de pontos turisticos: %d", &pontosTuristicos);
+    // Área para entrada de dados
 
     printf("Estado: %s\n", estado);
     printf("Codigo da Carta: %s\n", codigoCarta);
@@ -29,13 +30,7 @@ int main() {
     printf("Area: %.2f\n", area);
     printf("PIB: %.2f\n", pib);
     printf("Pontos Turisticos: %d\n", pontosTuristicos);
-
-    
-  // Área para definição das variáveis para armazenar as propriedades das cidades
-
-  // Área para entrada de dados
-
-  // Área para exibição dos dados da cidade
+    // Área para exibição dos dados da cidade
 
 return 0;
 } 
